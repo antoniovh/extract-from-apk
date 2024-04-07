@@ -1,0 +1,5 @@
+## APK Permission and API Analyzer
+This repository contains a tool for extracting the list of permissions and APIs from an APK file. It then compares them with sorted lists of permissions (permissions.py) and APIs (apis.py). If a match is found, it adds a 1 in the relative position to the permission or API in its corresponding sorted list; otherwise, it adds 0. The same process is performed comparing with a list of suspicious permissions and APIs. The final result is a binary vector for permissions and another one for APIs.
+
+## Analizador de Permisos y APIs de APK
+Este repositorio contiene una herramienta para extraer la lista de permisos y APIs de un archivo APK. Luego las compara con listas ordenadas de permisos (permissions.py) y APIs (apis.py). Si se encuentra una coincidencia, agrega un 1 en la posición relativa al permiso o API en su lista ordenada correspondiente; de lo contrario, agrega 0. Se realiza el mismo proceso comparando con una lista de permisos y APIs sospechosos. El resultado final es un vector binario para permisos y otro para APIs.
